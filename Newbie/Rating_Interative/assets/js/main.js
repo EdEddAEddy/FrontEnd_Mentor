@@ -7,7 +7,7 @@ const textSelect = document.getElementById('textSelect')
 for (let i = 0; i < circles.length; i++) {
     const circle = circles[i];
     circle.addEventListener('click', () => {
-        //quando ouver o click em algum dos circle ira aplicar "selected" no qual foi selecionado e entrada no for para desmarcar "selected" de algum outro que tenha.
+        //quando houver o click em algum dos circle ira aplicar "selected" no qual foi selecionado e entrada no for para desmarcar "selected" de algum outro que tenha.
         for (let i = 0; i < circles.length; i++) {
             const circle = circles[i];
             circle.classList.remove('selected'); 

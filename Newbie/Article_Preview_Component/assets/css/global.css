@@ -91,3 +91,8 @@
         padding: .85rem;
         border-radius: 50%;
     }
+
+    .card .infoUser .imgShare:hover {
+        background-color: hsla(214, 17%, 51%, 0.5);
+
+    }

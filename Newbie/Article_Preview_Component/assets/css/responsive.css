@@ -1,0 +1,42 @@
+@media screen and (min-width: 1440px) {
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 750px;
+        min-height: 270px;
+        max-height: 300px;
+    }
+
+    .card .imagePost {
+        width: 40%;
+        height: 100%;
+    }
+
+    .card .description {
+        width: 50%;
+        padding: 2rem 0;
+    }
+
+    .card .description .title {
+        font-size: 1.55rem;
+        line-height: 2rem;
+    }
+    
+    .card .infoUser {
+        position: relative;
+    }
+
+    .card .infoUser .avatar {
+        position: absolute;
+        left: .5rem;
+    }
+
+    .card .infoUser .user {
+        position: absolute;
+        left: 4rem;
+    }
+
+    .card .infoUser .imgShare {
+        position: absolute;
+    }
+}

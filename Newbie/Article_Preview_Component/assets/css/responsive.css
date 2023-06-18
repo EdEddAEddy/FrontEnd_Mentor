@@ -5,11 +5,16 @@
         max-width: 750px;
         min-height: 270px;
         max-height: 300px;
+        overflow: visible;
     }
 
     .card .imagePost {
         width: 40%;
         height: 100%;
+    }
+
+    .card .imagePost .imgProduct {
+        border-radius: 1rem 0 0 1rem;
     }
 
     .card .description {
@@ -41,11 +46,11 @@
     }
 
     .modal {
-        position: fixed;
+        position: absolute;
         width: 18.5rem;
         height: 3.75rem;
         border-radius: 1rem;
-        bottom: 45%;
-        right: 20%;
+        bottom: 5.5rem;
+        right: -4.5rem;
     }
 }

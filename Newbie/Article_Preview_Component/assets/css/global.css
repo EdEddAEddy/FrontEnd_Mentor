@@ -26,8 +26,8 @@ body {
     max-height: 500px;
     height: 55vh;
     border-radius: 1rem;
-    overflow: hidden;
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
@@ -68,6 +68,7 @@ body {
     justify-content: space-around;
     margin-bottom: 3rem; 
     background-color: green;
+    z-index: 0;
 }
 
 .card .infoUser .avatar {
@@ -101,21 +102,23 @@ body {
     padding: .75rem;
     border-radius: 50%;
     transition: linear 0.3s;
+    z-index: 2;
 }
 
 .card .imgShare:hover {
-    background-color: hsla(214, 17%, 51%, 0.5);
+    background-color: hsla(214, 17%, 60%, 0.5);
     cursor: pointer;
 }
 
 .modal {
-    background-color: hsla(214, 17%, 51%, 1);;
+    background-color: hsla(214, 17%, 25%, 1);;
     position: absolute;
     bottom: 0px;
     height: 6rem;
     width: 100%;
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 
 .modal::before {

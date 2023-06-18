@@ -34,3 +34,18 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+.card .description {
+    padding: 1.5rem 3rem;
+}
+
+.card .description .title {
+    font-size: 1.25rem;
+    opacity: .7;
+    line-height: 1.65rem;
+}
+.card .description .subTitle {
+    font-size: 1.03rem;
+    opacity: .5;
+    line-height: 1.50rem;
+}

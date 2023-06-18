@@ -21,7 +21,7 @@
         background-color: white;
         width: 90%;
         height: 55vh;
-        border-radius: 1.5rem;
+        border-radius: 1rem;
         overflow: hidden;
         display: flex;
         flex-direction: column;
@@ -64,7 +64,7 @@
     
     .card .infoUser .avatar {
         position: absolute;
-        height: 80%;
+        height: 2.75rem;
         left: 3rem;
         border-radius: 50%;
         
@@ -74,6 +74,14 @@
         position: absolute;
         left: 7rem;
         line-height: .5rem;
+    }
+
+    .card .infoUser .user .userName {
+        opacity: .6;
+    }
+
+    .card .infoUser .user .date {
+        opacity: .3;
     }
     
     .card .infoUser .imgShare {

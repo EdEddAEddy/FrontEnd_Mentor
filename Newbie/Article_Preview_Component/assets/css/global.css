@@ -1,4 +1,4 @@
-::root {
+:root {
 --VeryDarkGrayishBlue: hsl(217, 19%, 35%);
 --DesaturatedDarkBlue: hsl(214, 17%, 51%);
 --GrayishBlue: hsl(212, 23%, 69%);
@@ -8,4 +8,29 @@
 * {
     font-family: 'Manrope', sans-serif;
     font-size: 13px;
+}
+
+body {
+    background-color: var(--LightGrayishBlue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card {
+    background-color: white;
+    width: 90%;
+    height: 80vh;
+    border-radius: 1.5rem;
+}
+
+.card .imagePost {
+    background-color: red;
+    height: 30%;
+}
+
+.card .imagePost .imgProduct {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

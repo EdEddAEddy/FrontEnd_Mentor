@@ -39,4 +39,13 @@
     .card .infoUser .imgShare {
         position: absolute;
     }
+
+    .modal {
+        position: fixed;
+        width: 18.5rem;
+        height: 3.75rem;
+        border-radius: 1rem;
+        bottom: 45%;
+        right: 20%;
+    }
 }

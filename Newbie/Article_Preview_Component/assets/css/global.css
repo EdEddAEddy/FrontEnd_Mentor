@@ -131,3 +131,11 @@ body {
 .modal .icon {
     margin-left: 1rem;
 }
+
+.show {
+    display: flex;
+}
+
+.close {
+    display: none;
+}

@@ -10,3 +10,72 @@
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
+
+body {
+    background-color: #36384d;
+}
+
+main {
+    width:375px;
+    max-height: 860px;
+    background-color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+section .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--DarkSlateGrey);
+    margin-top: 0;
+}
+
+section .description {
+    
+}
+
+section .list {
+    display: flex;
+}
+
+section .list .listIcon {
+    margin-right: .9rem;
+}
+
+section .formEmail {
+    margin-top: 1.5rem;
+}
+
+section .labelEmail {
+    font-size: .8rem;
+    font-weight: bold;
+    
+}
+
+section .boxEmail {
+    margin-top: .5rem;
+    padding: .8rem 0;
+    border-radius: 10px;
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    box-shadow: 0px 0px 1px 1px rgba(199,199,199,1);
+}
+
+section .boxEmail::placeholder {
+    padding-left: 1rem;
+}
+
+section .btn {
+    margin-top: 1.4rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background: #232742;
+    color: #fdffff;
+    font-size: .85rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}

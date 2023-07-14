@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Newsletter SignUp | Frontend Mentor</title>
 
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,6 +24,33 @@
 </head>
 
 <body>
+
+    <main class="card">
+        <div class="header">
+            <img src="./assets/images/illustration-sign-up-mobile.svg" alt="" class="headerImage">
+        </div>
+        <section class="content">
+            <h1 class="title">Stay updated!</h1>
+            <p class="description">Join 60,000+ product managers receiving monthly updates on: </p>
+            <div class="list list__1">
+                <img src="./assets/images/icon-list.svg" alt="" class="listIcon icon__1">
+                <p class="listDetail detail__1">Product discovery and building what matters</p>
+            </div>
+            <div class="list list__2">
+                <img src="./assets/images/icon-list.svg" alt="" class="listIcon icon__2">
+                <p class="listDetail detail__2">Measuring to ensure updates are a sucess</p>
+            </div>
+            <div class="list list__3">
+                <img src="./assets/images/icon-list.svg" alt="" class="listIcon icon__3">
+                <p class="listDetail detail__3">And much more!</p>
+            </div>
+            <form action="#" class="formEmail">
+                <label for="email" class="labelEmail">Email address</label><br>
+                <input type="email" id="email" placeholder="email@company.com" class="boxEmail">
+                <input type="submit" class="btn" value="Subscribe to monthly newsletter">
+            </form>
+        </section>
+    </main>
 
 </body>
 
